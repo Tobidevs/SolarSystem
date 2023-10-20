@@ -1,0 +1,372 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(27, 31, 59);
+    
+}
+#headerbar{
+    background-color: rgba(24, 25, 102, 0.541);
+    padding: 20px;
+    border: 5px solid rgb(31, 37, 87);
+    display: grid;
+    display: inline-flex;
+    gap: 260px;
+    align-items: center;
+    width: 96.7%
+}
+#headerbar img{
+    display: none;
+}
+#maintitle{
+    font-family: 'Noto Sans', sans-serif;
+    color: transparent;
+    width: 400px;
+    background: url(https://www.creativefabrica.com/wp-content/uploads/2019/10/29/Purple-Background-with-Stars-pre.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+.headertextbox{
+    display: flex;
+    justify-content: center;
+}
+.headertext{
+    color: rgb(69, 74, 222);
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    width: 700px;
+    border: 4px solid rgb(37, 44, 105);
+    border-bottom: transparent;
+    border-top: transparent;
+}
+p{
+    color: rgb(69, 74, 222);
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 10px 8px 10px 8px;
+    border-radius: 10px;
+}
+.planettitle{
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
+    color:rgb(126, 133, 238);
+    width: 100%;
+    border-radius: 10px;
+}
+#ani:hover{
+    background-color: rgba(25, 26, 83, 0.514);
+    transition:background-color 150ms ease-in-out;
+}
+.navigation a:hover{
+    background-color: rgba(38, 40, 145, 0.514);
+    transition:background-color 150ms ease-in-out;
+}
+.planets{
+    border:5px solid rgb(59, 63, 122);
+    border-radius: 10px;
+    background-color: rgb(59, 63, 122);
+    padding: 20px;
+    margin: 5px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+h3{
+    font-family: 'Cabin', sans-serif;
+    font-size: 34px;
+    color: rgb(84, 91, 143);
+}
+.navigation a{
+    background-color: rgba(12, 15, 36, 0.226);
+    border: 4px solid rgba(12, 15, 36, 0.226);
+    color:rgb(77, 88, 243);
+    height: 120px;
+    margin: 3px;
+    padding: 10px;    
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+}
+#factbox{
+    margin: 2px 5px 2px 5px;
+}
+.facts span{
+    color:hsla(231, 10%, 61%, 0.651);
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    font-size: 19px;
+}
+
+.facts{
+    background-color: rgba(84, 91, 143, 0.226);
+    border-radius: 20px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    text-align: center;
+}
+#factname{
+    text-align: center;
+    color: rgb(177, 74, 237);
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+}/*
+.saturn .facts{
+    background-color: rgba(84, 91, 143, 0.226);
+    border-radius: 20px;
+    padding: 5px;
+    height: 130px;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 97%;
+}
+.jupiter .facts{
+    background-color: rgba(84, 91, 143, 0.226);
+    border-radius: 20px;
+    padding: 5px;
+    height: 130px;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 97%;
+}
+.uranus .facts{
+    background-color: rgba(84, 91, 143, 0.226);
+    border-radius: 20px;
+    padding: 5px;
+    height: 130px;
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 97%;
+}*/
+.mercury{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.mercury p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.mercury img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.venus{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.venus p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.venus img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.earth{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.earth p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.earth img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.mars{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.mars p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.mars img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.asteriodbelt {
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    display: block;
+}
+.asteriodbelt p{
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 10px 0px 10px;
+}
+.asteriodbelt img{
+    height: 200px;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+#asteroid{
+    display: flex;
+    border: 10px solid rgba(84, 91, 143, 0.226);
+    border-radius: 20px;
+}
+.jupiter{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.jupiter p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.jupiter img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.saturn{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.saturn p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.saturn img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.uranus{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.uranus p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.uranus img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.neptune{
+    background-color: rgb(21, 25, 49);
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.neptune p{
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+}
+.neptune img{
+    width: 96%;
+    border: 8px solid rgba(12, 15, 36, 0.226);
+    border-radius: 5px;
+}
+.sources {
+    background-color: rgba(52, 33, 163, 0.986);
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+    display: block;
+    margin: 20px 20px 20px 20px;
+    flex-grow: 1;
+}
+.sources a {
+    background-color: rgba(12, 15, 36, 0.226);
+    border: 4px solid rgba(12, 15, 36, 0.226);
+    color:rgb(77, 88, 243);
+    height: 150px;
+    margin: 3px;
+    padding: 10px;    
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Cabin', sans-serif;
+}
+.sources h3{
+    color: rgb(10, 11, 71);
+    font-size: 30px;
+    
+}
+.sources a:hover{
+    background-color: rgba(21, 22, 75, 0.514);
+    transition: background-color 150ms ease-in-out;
+}
+@media screen and (max-width: 480px){
+    #headerbar{
+        height:1000px;
+        align-items: flex-start;
+        padding: 60px;
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    #maintitle{
+        text-align: center;
+        font-size: 90px;
+        
+    }
+    #headerbar img{
+        display: block;
+        height: 350px;
+        justify-content: center;
+        padding: 0px 0px 0px 30px;
+    }
+
+}
